@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    
+    background-color: blue;
+    color: #fff;
+    font: optional;
+    text-align: center;
+    width: 100vm;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .tabla_estilo{
+    border-collapse: collapse;
+    margin: 25 px ;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(156, 155, 155) ;
+    border-spacing: 0;
+    font-size: 0.8em;
+    
+  }
+  .tabla_estilo thead tr{
+    text-align: center;
+  }
+  .tabla_estilo th,
+  .tabla_estilo td{
+    padding: 12px 25px;
+    border: 1px solid rgb(156, 155, 155) ;
+    white-space: nowrap;
+  }
+  .tabla_estilo tbody tr ,
+  .tabla_estilo thead tr{
+  
+    border-bottom: 1px solid rgb(156, 155, 155);
+  }
+  .contenedor-tabla {
+    overflow-x: auto; 
+  }
+  
+  
+  .contenedor-tabla .tabla_estilo {
+    width: 100%;
+  }
+  
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: blue;
+    color: #fff;
+    font: optional;
+    text-align: center;
+  }
+  .mini_titulo{
+    text-align: center;
+  }
